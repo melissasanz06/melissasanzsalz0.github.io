@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&family=Roboto+Mono:wght@300&display=swap');
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header ul{
+   list-style: none;
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+   color: gray;
+   font-family: 'Megrim', cursive;
+   font-family: 'Roboto Mono', monospace;
+   size: 100%;
+}
+
+header ul li{
+    margin:10px ;
+}
+
+img{
+    width: 350px;
+}
+
+h1{
+    word-wrap: break-word;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+
+p{
+    font-size: 16px;
+    color: black;
+    background-color: white;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color:white;
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja img{
+    border-radius: 8px;
+}
+
+.caja p{
+    font-size: 12px;
+
+}
+
+.michi p{
+    background-color:aquamarine;
+    width: 100%;
+}
+
